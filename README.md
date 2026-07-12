@@ -2,7 +2,7 @@
 
 **Русский** · [English](#english)
 
-Авто-смена разрешения экрана для SlatZone. Фоновый сервис
+Авто-смена разрешения экрана для StalZone. Фоновый сервис
 (`ResSwitcher.exe`) автоматически переключает разрешение при запуске игры и
 возвращает системное при сворачивании (alt-tab) или закрытии игры. Настройки —
 через отдельное окно `Settings.exe`.
@@ -88,7 +88,7 @@ MIT — см. [LICENSE](LICENSE).
 
 [Русский](#resswitcher) · **English**
 
-Automatic screen-resolution switcher for STALCRAFT / SlatZone. A background tray
+Automatic screen-resolution switcher for StalZone. A background tray
 service (`ResSwitcher.exe`) switches to your target resolution when the game is
 focused and restores the system resolution on alt-tab or when the game exits.
 Configuration is done through a separate `Settings.exe` window.
