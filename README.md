@@ -2,7 +2,7 @@
 
 **Русский** · [English](#english)
 
-Авто-смена разрешения экрана для StalZone. Фоновый сервис
+Авто-смена разрешения экрана для stalzone. Фоновый сервис
 (`ResSwitcher.exe`) автоматически переключает разрешение при запуске игры и
 возвращает системное при сворачивании (alt-tab) или закрытии игры. Настройки —
 через отдельную прогу `Settings.exe`.
@@ -57,7 +57,7 @@ ResSwitcher.Settings/   — Settings.exe
 
 [Русский](#resswitcher) · **English**
 
-Automatic screen-resolution switcher for StalZone. A background service
+Automatic screen-resolution switcher for stalzone. A background service
 (`ResSwitcher.exe`) automatically switches the resolution when the game starts
 and restores the system resolution when the game is minimized (alt-tab) or
 closed. Configuration is done through a separate `Settings.exe` app.
