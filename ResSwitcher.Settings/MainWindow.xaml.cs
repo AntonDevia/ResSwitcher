@@ -170,6 +170,19 @@ public partial class MainWindow : FluentWindow
         return (0, 0);
     }
 
+    private void CopyAuthorButton_Click(object sender, RoutedEventArgs e)
+    {
+        try
+        {
+            System.Windows.Clipboard.SetText(AuthorNickText.Text);
+            StatusText.Text = "Ник автора скопирован.";
+        }
+        catch (Exception ex)
+        {
+            StatusText.Text = $"Не удалось скопировать: {ex.Message}";
+        }
+    }
+
     private void SaveButton_Click(object sender, RoutedEventArgs e)
     {
         var (width, height) = GetSelectedResolution();

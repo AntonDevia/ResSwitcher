@@ -53,6 +53,10 @@ ResSwitcher.Settings/   — Settings.exe
 
 ---
 
+Ник разработчика — **МС_БЕТОН**
+
+---
+
 ## English
 
 [Русский](#resswitcher) · **English**
@@ -104,3 +108,7 @@ ResSwitcher.Core/       — shared library
 ResSwitcher.Service/    — ResSwitcher.exe
 ResSwitcher.Settings/   — Settings.exe
 ```
+
+---
+
+Developer nickname — **МС_БЕТОН**

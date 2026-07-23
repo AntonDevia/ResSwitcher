@@ -35,6 +35,22 @@
         <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Padding="24,12,24,24">
             <StackPanel>
 
+                <ui:Card Padding="14,10" Margin="0,0,0,4">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                            <TextBlock Text="Ник разработчика" Opacity="0.6" FontSize="12" />
+                            <TextBlock x:Name="AuthorNickText" Text="МС_БЕТОН" FontSize="16" FontWeight="SemiBold" />
+                        </StackPanel>
+                        <ui:Button x:Name="CopyAuthorButton" Grid.Column="1" VerticalAlignment="Center"
+                                   Appearance="Secondary" Icon="{ui:SymbolIcon Copy24}"
+                                   ToolTip="Скопировать ник" Click="CopyAuthorButton_Click" />
+                    </Grid>
+                </ui:Card>
+
                 <TextBlock Text="Соотношение сторон" FontSize="16" FontWeight="SemiBold" Margin="0,8,0,10" />
                 <UniformGrid Columns="3" Rows="1">
                     <ui:CardAction x:Name="Tile4x3" Style="{StaticResource RatioTile}" Click="RatioTile_Click" Tag="4:3">
